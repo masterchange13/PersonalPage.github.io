@@ -1,12 +1,13 @@
 <template>
   <nav>
-    <div class="logo"><img src="../../../../public/zichso3.jpg" style="height: 80px; height: 80px;" /></div>
+    <div class="logo" ><img src="../../../../public/zichso3.jpg" style="height: 80px; height: 80px;" /></div>
     <div class="el-menu-item" href="#">首页</div>
     <div class="el-menu-item" href="#">文章</div>
     <div class="el-menu-item" href="#">分享</div>
     <div class="el-menu-item" href="#">utils</div>
     <div class="el-menu-item" href="#">个人主页</div>
     <div class="el-menu-item" href="#">Github</div>
+    <!-- <div class="el-menu-item" href="#"></div> -->
   </nav>
 </template>
   <script>
@@ -20,6 +21,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* 设置顶行 */
+  /* margin-top: -500px; */
 }
 nav .el-menu-item {
   color: #ffffff;
